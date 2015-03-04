@@ -9,6 +9,7 @@ import java.util.Stack;
 public class SimpleStackImpl implements SimpleStack {
     Stack<Object> wrappedStack = new Stack<Object>();
 //commentaire exigence #3
+    //exigence #1
     public boolean isEmpty(){
         return wrappedStack.isEmpty();
     }
